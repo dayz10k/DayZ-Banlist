@@ -1,0 +1,98 @@
+=======================
+KILL MESSAGES  (server_playerDied)
+=======================
+  	if (_killerName != "nil") then
+		{
+			_weapon = _victim getVariable["AttackedByWeapon", "nil"];
+			_distance = _victim getVariable["AttackedFromDistance", "nil"];
+
+			if (_victimName == _killerName) then 
+			{
+				_message = format["%1 killed himself",_victimName];
+				_loc_message = format ["PLAYER: KILL: %1 killed himself", _victimName];
+			}
+			else 
+			{
+				_killerPlayerID = getPlayerUID _killer;
+				_message = format ["%1 was killed with weapon %3", _victimName, _killerName, _weapon];
+					//_message = format ["%1 was killed by %2", _victimName, _killerName];
+				_loc_message = format ["PLAYER: KILL: %1 was killed by %2 with weapon %3 from %4m", _victimName, _killerName, _weapon, _distance];
+			};
+
+			diag_log _loc_message;
+			[nil, nil, rspawn, [_victim, _message], { (_this select 0) globalChat (_this select 1) }] call RE;
+			
+	// Cleanup
+	_victim setVariable["AttackedBy", "nil", true];
+	_victim setVariable["AttackedByName", "nil", true];
+	_victim setVariable["AttackedByWeapon", "nil", true];
+	_victim setVariable["AttackedFromDistance", "nil", true];
+};
+
+=======================
+CUSTOM SKINS  (server_playerLogin)
+=======================
+
+if (!(_model in ["SurvivorW2_DZ","Survivor2_DZ","Sniper1_DZ","Soldier1_DZ","Camo1_DZ","BanditW1_DZ","Bandit1_DZ","Ins_Soldier_1","TK_CIV_Takistani01_EP1","TK_CIV_Takistani05_EP1","TK_INS_Soldier_EP1","CZ_Soldier_DES_EP1","US_Soldier_EP1","BAF_Soldier_L_MTP","BAF_Soldier_L_DDPM","BAF_Soldier_L_MTP","BAF_Soldier_L_DDPM","Survivor3_DZ","US_Pilot_Light_AllWeaponSlots_EP1","USMC_Soldier_Crew_AllWeaponSlots","GER_Soldier_Medic_AllWeaponSlots_EP1","RU_Soldier_Medic_AllWeaponSlots","GUE_Soldier_Medic","MVD_Soldier_Base"])) then {
+		_model = "Survivor2_DZ";
+	};
+	
+	
+========================
+AH & SKINS/CRASHES/VARIABLES
+========================
+TK_CIV_Takistani01_EP1 = 	"TK_CIV_Takistani01_EP1";
+TK_CIV_Takistani05_EP1 = 	"TK_CIV_Takistani05_EP1";
+TK_INS_Soldier_EP1 = 		"TK_INS_Soldier_EP1";
+CZ_Soldier_DES_EP1 = 		"CZ_Soldier_DES_EP1";
+US_Soldier_EP1 = 			"US_Soldier_EP1";
+BAF_Soldier_MTP = 			"BAF_Soldier_MTP";
+BAF_Soldier_DDPM = 			"BAF_Soldier_DDPM";
+BAF_Soldier_L_MTP = 		"BAF_Soldier_L_MTP";
+BAF_Soldier_L_DDPM = 		"BAF_Soldier_L_DDPM";
+Ins_Soldier_1 =             "Ins_Soldier_1";
+MVD_Soldier_Base = 			"MVD_Soldier_Base";
+GUE_Soldier_Medic = 		"GUE_Soldier_Medic";
+US_Pilot_Light_AllWeaponSlots_EP1 = "US_Pilot_Light_AllWeaponSlots_EP1";
+USMC_Soldier_Crew_AllWeaponSlots = "USMC_Soldier_Crew_AllWeaponSlots";
+GER_Soldier_Medic_AllWeaponSlots_EP1 = "GER_Soldier_Medic_AllWeaponSlots_EP1";
+RU_Soldier_Medic_AllWeaponSlots = "RU_Soldier_Medic_AllWeaponSlots";
+
+s_player_butcher_human = -1;
+s_silver_smelt = -1;
+s_silver_melt = -1;
+s_razor_trap = -1;
+s_player_igniteTentSwitch = -1;
+s_player_igniteTentYes = -1;
+s_player_igniteTentNo = -1;
+
+spawn_helis 				= compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\spawn_heli.sqf";
+
+#include "COCAINE_fnc.sqf"
+
+==========================
+PLAYER HIT
+==========================
+diag_log format ["PLAYER: HIT: %1 was hit by %2 with %3 from %4m", _victim, _attacker, _weapon, _distance];
+
+
+
+=======================
+SERVER MONITOR
+=======================
+dayz_serverVersionNo	= "5.9.0.0";
+diag_log format ["SERVER: VERSION: CC %1", dayz_serverVersionNo];
+
+
+
+
+		for "_x" from 1 to SpawnHelisCount do { _id = [] spawn spawn_helis; };
+		for "_x" from 1 to SpawnWrecksCount do { _id = [] spawn spawn_wrecks; };
+		for "_x" from 1 to SpawnCareCount do { _id = [] spawn spawn_care; };	
+		
+			
+			
+===========
+wreck/care debug
+===========
+diag_log("DEBUG: Spawning a " + str(_randomvehicle) + " at " + str(_position) + " with loot type " + str(_vehicleloottype) + " and " + str(_num) + " total loot drops");
