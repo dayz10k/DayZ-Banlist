@@ -1,0 +1,151 @@
+///////////////////////////////////////////////examples//////////////////////////////////////////
+<s15Rnd_9x19_M9>
+    <Type>smallammo</Type>
+    <Slots>1</Slots>
+</s15Rnd_9x19_M9>
+<sCrossbow>
+  <Type>rifle</Type>
+  <Slots>10</Slots>
+</sCrossbow>
+<sMeleeCrowbar>
+  <Type>rifle</Type>
+  <Slots>10</Slots>
+</sMeleeCrowbar>
+///////////////////////////////////////////////examples//////////////////////////////////////////
+<sFoodCanDerpy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanDerpy>
+<sFoodCanDerpyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanDerpyEmpty>
+<s8Rnd_9x18_MakarovSD>
+    <Type>smallammo</Type>
+    <Slots>1</Slots>
+</s8Rnd_9x18_MakarovSD>
+<sItemCards>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sItemCards>
+<sFoodmuttonRaw>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodmuttonRaw>
+<sFoodmuttonCooked>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodmuttonCooked>
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+<sFoodCanBeef>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBeef>
+<sFoodCanBeefEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBeefEmpty>
+<sFoodCanPotatoes>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanPotatoes>
+<sFoodCanPotatoesEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanPotatoesEmpty>
+<sFoodCanGriff>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanGriff>
+<sFoodCanGriffEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanGriffEmpty>
+<sFoodCanBadguy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBadguy>
+<sFoodCanBadguyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBadguyEmpty>
+<sFoodCanBoneboy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBoneboy>
+<sFoodCanBoneboyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBoneboyEmpty>
+<sFoodCanCorn>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCorn>
+<sFoodCanCornEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCornEmpty>
+<sFoodCanCorn>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCorn>
+<sFoodCanCornEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCornEmpty>
+<sFoodCanDemon>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanDemon>
+<sFoodCanDemonEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanDemonEmpty>
+<sFoodCanCurgon>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCurgon>
+<sFoodCanCurgonEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCurgonEmpty>
+<sFoodCanFraggleos>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanFraggleos>
+<sFoodCanFraggleosEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanFraggleosEmpty>
+
+
+FoodCanDerpy
+FoodCanHerpy
+FoodCanOrlok
+FoodCanPowell
+FoodCanTylers
+FoodCanRusUnlabeled
+FoodCanRusStew 
+FoodCanRusPork 
+FoodCanRusPeas 
+FoodCanRusMilk 
+FoodCanRusCorn 
+FoodChipsSulahoops 
+FoodChipsMysticales 
+FoodChipsChocolate 
+FoodCandyChubby 
+FoodCandyAnders 
+FoodCandyLegacys 
+FoodCandyMintception 
+FoodCanLongSprats 
+ItemSodaLemonade 
+ItemSodaDrwaste 
+ItemSodaSmasht 
+ItemSodaR4z0r 
+ItemSodaRabbit 
+ItemSodaMzly 
+ItemSodaLvg 
+ItemSodaRocketFuel 
+ItemSodaGrapeDrink 
