@@ -12,14 +12,6 @@
   <Slots>10</Slots>
 </sMeleeCrowbar>
 ///////////////////////////////////////////////examples//////////////////////////////////////////
-<sFoodCanDerpy>
-    <Type>heavyammo</Type>
-    <Slots>1</Slots>
-</sFoodCanDerpy>
-<sFoodCanDerpyEmpty>
-    <Type>heavyammo</Type>
-    <Slots>1</Slots>
-</sFoodCanDerpyEmpty>
 <s8Rnd_9x18_MakarovSD>
     <Type>smallammo</Type>
     <Slots>1</Slots>
@@ -28,17 +20,6 @@
     <Type>heavyammo</Type>
     <Slots>1</Slots>
 </sItemCards>
-<sFoodmuttonRaw>
-    <Type>heavyammo</Type>
-    <Slots>1</Slots>
-</sFoodmuttonRaw>
-<sFoodmuttonCooked>
-    <Type>heavyammo</Type>
-    <Slots>1</Slots>
-</sFoodmuttonCooked>
-///////////////////////////////////////////////
-///////////////////////////////////////////////
-///////////////////////////////////////////////
 <sFoodCanBeef>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
@@ -55,46 +36,185 @@
     <Type>heavyammo</Type>
     <Slots>1</Slots>
 </sFoodCanPotatoesEmpty>
-<sFoodCanGriff>
+<sFoodCanDerpy>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanGriff>
-<sFoodCanGriffEmpty>
+</sFoodCanDerpy>
+<sFoodCanDerpyEmpty>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanGriffEmpty>
-<sFoodCanBadguy>
+</sFoodCanDerpyEmpty>
+<sItemFuelcanEmpty>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanBadguy>
-<sFoodCanBadguyEmpty>
+</sItemFuelcanEmpty>
+<sItemFuelcan>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanBadguyEmpty>
-<sFoodCanBoneboy>
+</sItemFuelcan>
+<sFoodCanRusUnlabeled>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanBoneboy>
-<sFoodCanBoneboyEmpty>
+</sFoodCanRusUnlabeled>
+<sFoodCanRusUnlabeledEmpty>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanBoneboyEmpty>
-<sFoodCanCorn>
+</sFoodCanRusUnlabeledEmpty>
+<sFoodCanRusStew>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanCorn>
-<sFoodCanCornEmpty>
+</sFoodCanRusStew>
+<sFoodCanRusStewEmpty>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanCornEmpty>
-<sFoodCanCorn>
+</sFoodCanRusStewEmpty>
+<sFoodCanRusPork>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanCorn>
-<sFoodCanCornEmpty>
+</sFoodCanRusPork>
+<sFoodCanRusPorkEmpty>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
-</sFoodCanCornEmpty>
+</sFoodCanRusPorkEmpty>
+<sFoodCanRusPeas>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusPeas>
+<sFoodCanRusPeasEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusPeasEmpty>
+<sFoodCanRusMilk>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusMilk>
+<sFoodCanRusMilkEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusMilkEmpty>
+<sFoodCanRusCorn>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusCorn>
+<sFoodCanRusCornEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanRusCornEmpty>
+<sFoodChipsSulahoops>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsSulahoops>
+<sFoodChipsSulahoopsEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsSulahoopsEmpty>
+<sFoodChipsMysticales>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsMysticales>
+<sFoodChipsMysticalesEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsMysticalesEmpty>
+<sFoodChipsChocolate>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsChocolate>
+<sFoodChipsChocolateEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodChipsChocolateEmpty>
+<sFoodCandyChubby>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCandyChubby>
+<sFoodCandyAnders>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCandyAnders>
+<sFoodCandyLegacys>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCandyLegacys>
+<sFoodCandyMintception>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCandyMintception>
+<sFoodCanLongSprats>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanLongSprats>
+<sFoodCanLongSpratsEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanLongSpratsEmpty>
+<sItemSodaRocketFuel>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sItemSodaRocketFuel>
+<sItemSodaRocketFuelEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sItemSodaRocketFuelEmpty>
+<sItemSodaGrapeDrink>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sItemSodaGrapeDrink>
+<sItemSodaGrapeDrinkEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sItemSodaGrapeDrinkEmpty>
+
+
+
+
+/////Find images for//////
+FoodChipsChocolate
+    FoodChipsChocolateEmpty
+FoodCandyChubby
+FoodCandyAnders
+FoodCandyLegacys
+FoodCandyMintception
+FoodCanLongSprats
+ItemSodaRocketFuel
+ItemSodaGrapeDrink
+ItemSodaRocketFuelEmpty
+    ItemSodaGrapeDrinkEmpty
+ItemFuelcan          (reuse jerry)
+    ItemFuelcanEmpty     (reuse jerry)
+FoodCanLongSprats
+    FoodCanLongSpratsEmpty
+    
+    
+    
+
+/////////////Dupes?///////////////
+FoodCanPowell
+FoodCanTylers
+ItemSodaLemonade 
+ItemSodaDrwaste 
+ItemSodaSmasht 
+ItemSodaR4z0r 
+ItemSodaRabbit 
+ItemSodaMzly 
+ItemSodaLvg 
+///////////Formatted//////////////
+<sFoodCanHerpy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanHerpy>
+<sFoodCanHerpyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanHerpyEmpty>
+<sFoodCanOrlok>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanOrlok>
+<sFoodCanOrlokEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanOrlokEmpty>
 <sFoodCanDemon>
     <Type>heavyammo</Type>
     <Slots>1</Slots>
@@ -119,33 +239,43 @@
     <Type>heavyammo</Type>
     <Slots>1</Slots>
 </sFoodCanFraggleosEmpty>
-
-
-FoodCanDerpy
-FoodCanHerpy
-FoodCanOrlok
-FoodCanPowell
-FoodCanTylers
-FoodCanRusUnlabeled
-FoodCanRusStew 
-FoodCanRusPork 
-FoodCanRusPeas 
-FoodCanRusMilk 
-FoodCanRusCorn 
-FoodChipsSulahoops 
-FoodChipsMysticales 
-FoodChipsChocolate 
-FoodCandyChubby 
-FoodCandyAnders 
-FoodCandyLegacys 
-FoodCandyMintception 
-FoodCanLongSprats 
-ItemSodaLemonade 
-ItemSodaDrwaste 
-ItemSodaSmasht 
-ItemSodaR4z0r 
-ItemSodaRabbit 
-ItemSodaMzly 
-ItemSodaLvg 
-ItemSodaRocketFuel 
-ItemSodaGrapeDrink 
+<sFoodCanBoneboy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBoneboy>
+<sFoodCanBoneboyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBoneboyEmpty>
+<sFoodCanCorn>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCorn>
+<sFoodCanCornEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanCornEmpty>
+<sFoodCanGriff>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanGriff>
+<sFoodCanGriffEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanGriffEmpty>
+<sFoodCanBadguy>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBadguy>
+<sFoodCanBadguyEmpty>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodCanBadguyEmpty>
+<sFoodmuttonRaw>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodmuttonRaw>
+<sFoodmuttonCooked>
+    <Type>heavyammo</Type>
+    <Slots>1</Slots>
+</sFoodmuttonCooked>
