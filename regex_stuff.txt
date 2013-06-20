@@ -1,0 +1,27 @@
+$sectionpattern = "#\b([0-9\:]+)\s\"PLAYER:\s([".($hide == "1" ? "" : "HIT|")."KILL]+):\s([\S ]+)\swas\s[".($hide == "1" ? "" : "hit|")."killed by]+\s([\S ]+)\s[with]+\s([weapon\s]+)?([\S ]*)\s[from ]+([\d.]*)m#"; // Kill and Hits regex by SilverShot, slightly modified by Crosire
+
+////HIT MESSAGE///
+
+DayZCC
+diag_log format ["PLAYER: HIT: %1 was hit by %2 with %3 from %4m", _victim, _attacker, _weapon, _distance];
+
+
+Reality
+diag_log format["PHIT: %1 (%5) was hit by %2 (%6) with %3 from %4m", _victim, _attacker, _weapon, _distance, _victimPlayerID, _attakerPlayerID];
+
+
+$sectionpattern = "#\b([0-9\:]+)\s\"PLAYER:\s([".($hide == "1" ? "" : "HIT|")."KILL]+):\s([\S ]+)\swas\s[".($hide == "1" ? "" : "hit|")."killed by]+\s([\S ]+)\s[with]+\s([weapon\s]+)?([\S ]*)\s[from ]+([\d.]*)m#"; // Kill and Hits regex by SilverShot, slightly modified by Crosire
+
+
+////WRECK MESSAGE/// maps/markers.php
+
+DayZCC
+diag_log("DEBUG: Spawning a " + str(_randomvehicle) + " at " + str(_position) + " with loot type " + str(_vehicleloottype) + " and " + str(_num) + " total loot drops");
+
+
+Reality
+diag_log("DEBUG: Spawning a " + str (_randomvehicle) + " at " + str(_position) + " with loot type " + str(_vehicleloottype) + " With total loot drops = " + str(_num));
+
+
+Heli Crashes
+$sectionpattern = "/((?<=\sat\s\[)[0-9]{0,20}+\.+[0-9]{0,10}+\,+[0-9]{0,20}+\.+[0-9]{0,10})/x"; // Only helicopter crashsites: "/((?<=[a-z]{10}\s[a-z]{2}\s\[)[0-9]{0,20}+\.+[0-9]{0,10}+\,+[0-9]{0,20}+\.+[0-9]{0,10})/x"
