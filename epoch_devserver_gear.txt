@@ -1,0 +1,2 @@
+[["M4A1_Aim","M9SD","NVGoggles","ItemToolbox","ItemMap","ItemKnife","ItemMatchbox_DZE","ItemHatchet","ItemGPS","ItemEtool","ItemCompass","ItemCrowbar"],["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
+"15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","PipeBomb","PipeBomb","ItemBriefcase30oz","bulk_ItemSodaCoke","bulk_ItemTankTrapHalf","ItemBandage","ItemBandage","ItemBandage","ItemMorphine"]]
